@@ -7,7 +7,7 @@ app.use(async (ctx) => {
         code: 200, 
         message: "WELCOME TO KOA HTTP SERVER",
         made_by: "Koa.js, Node.js",
-        author: "https://github.com/gnwncta/"
+        author: "https://github.com/gnwncpta/"
     };
     const body = JSON.stringify(data);
     ctx.status = 200;
