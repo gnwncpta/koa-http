@@ -33,7 +33,7 @@ function randomQuotes(ctx){
 app.use(async (ctx) => {
     const { request } = ctx;
     
-    switch(request.url){
+    switch(request.originalUrl){
         case "/":
             index(ctx);
 
