@@ -33,12 +33,14 @@ function randomQuotes(ctx){
 app.use(async (ctx) => {
     const { request } = ctx;
     
-    switch(request.originalUrl){
+    switch(request.url){
         case "/":
             index(ctx);
+            break;
 
         case "/randomQuotes":
             randomQuotes(ctx);
+            break;
 
         default:
             return new Error();
