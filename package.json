@@ -1,0 +1,24 @@
+{
+  "name": "koa-http",
+  "version": "1.0.0",
+  "description": "HTTP Server made with koa.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnwncpta/koa-http.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnwncpta/koa-http/issues"
+  },
+  "homepage": "https://github.com/gnwncpta/koa-http#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "koa": "^2.13.4"
+  }
+}
