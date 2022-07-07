@@ -3,7 +3,12 @@ const Koa = require('koa');
 const app = new Koa();
 
 app.use(async (ctx) => {
-    const data = { code: 200, message: "WELCOME TO KOA HTTP SERVER" };
+    const data = { 
+        code: 200, 
+        message: "WELCOME TO KOA HTTP SERVER",
+        made_by: "Koa.js, Node.js",
+        author: "https://github.com/gnwncta/"
+    };
     const body = JSON.stringify(data);
     ctx.status = 200;
     ctx.body = body;
